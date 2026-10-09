@@ -71,3 +71,80 @@ Whether you're a translator, reverse engineer, or developer (C#, Python, C++), w
 <p align="center">
   <i>Made with ❤️ for the Persian gaming community.</i>
 </p>
+
+<br>
+<hr>
+<br>
+
+<div dir="rtl">
+
+# 🇮🇷 به FarsiForge خوش آمدید!
+
+<p align="center">
+  <b>توانمندسازی گیمرهای ایرانی | ابزارهای متن‌باز برای بومی‌سازی و مهندسی معکوس</b>
+</p>
+
+پروژه FarsiForge یک ابتکار متن‌باز و جامعه‌محور است که با هدف فارسی‌سازی بازی‌های ویدیویی فعالیت می‌کند. ما ابزارهای حرفه‌ای و قدرتمندی می‌سازیم که بخش‌های سخت و پیچیده‌ی بومی‌سازی بازی‌ها—از استخراج و تزریق متن گرفته تا رندر راست‌چین (RTL) و ساخت نصب‌کننده‌ها—را بر عهده می‌گیرند.
+
+## 🚀 پروژه‌های اصلی
+
+### [🔨 FarsiForge](https://github.com/FarsiForge-dev/FarsiForge)
+کامل‌ترین ابزار حرفه‌ای برای بومی‌سازی بازی‌های ویدیویی. این برنامه به‌طور خودکار موتور بازی را تشخیص می‌دهد، متن‌های قابل ترجمه را استخراج می‌کند، پردازش‌های مربوط به راست‌چین‌سازی (RTL) و چسباندن حروف فارسی را اعمال کرده، و در نهایت نصب‌کننده‌ی پچ (پچ‌ساز) را تولید می‌کند.
+
+### [🛠️ FarsiForgeTools](https://github.com/FarsiForge-dev/FarsiForgeTools)
+مجموعه‌ای از ابزارهای خط‌فرمان (CLI) و پردازشگرهای تخصصی برای دستکاری متن‌ها در موتورهای مختلف. پشتیبانی از آنریل انجین (`.locres`)، گودو (`.pck`)، یونیتی و فرمت‌های اختصاصی دیگر.
+
+---
+
+## 🧰 زنجیره ابزار و برنامه‌های فورک‌شده
+ما نسخه‌های فورک‌شده‌ی ابزارهای ضروری مهندسی معکوس و بومی‌سازی را نگهداری می‌کنیم تا همواره در دسترس و پایدار باشند و بتوانیم ویژگی‌های مخصوص زبان فارسی/راست‌چین را به آن‌ها اضافه کنیم. در اینجا نقشه‌ی ابزارهای موجود در سازمان ما را می‌بینید:
+
+### 🟩 یونیتی (Unity Engine)
+* **[AssetRipper](https://github.com/FarsiForge-dev/AssetRipper):** استخراج جامع فایل‌ها (مدل‌ها، تکسچرها، متون).
+* **[UABEA](https://github.com/FarsiForge-dev/UABEA) / [AssetsTools.NET](https://github.com/FarsiForge-dev/AssetsTools.NET):** خواندن، استخراج و ویرایش فایل‌های Asset Bundle در یونیتی.
+* **[Il2CppDumper](https://github.com/FarsiForge-dev/Il2CppDumper) / [Cpp2IL](https://github.com/FarsiForge-dev/Cpp2IL):** دی‌کامپایل و تحلیل بازی‌های IL2CPP.
+* **[BepInEx](https://github.com/FarsiForge-dev/BepInEx) / [HarmonyX](https://github.com/FarsiForge-dev/HarmonyX) / [Il2CppInterop](https://github.com/FarsiForge-dev/Il2CppInterop):** فریم‌ورک‌های استاندارد مادسازی و هوک برای تزریق فایل‌های DLL کاستوم به بازی‌های یونیتی.
+* **[XUnity.AutoTranslator](https://github.com/FarsiForge-dev/XUnity.AutoTranslator):** پلاگین ترجمه لحظه‌ای (On-the-fly) متن بازی.
+* **[UnityPy](https://github.com/FarsiForge-dev/UnityPy):** کتابخانه پایتون برای اسکریپت‌نویسی و دستکاری اسِت‌های یونیتی.
+
+### 🟦 آنریل انجین (Unreal Engine)
+* **[FModel](https://github.com/FarsiForge-dev/FModel):** بررسی و استخراج فایل‌های `.pak`، `.utoc` و `.ucas` در آنریل انجین.
+* **[UnrealLocres](https://github.com/FarsiForge-dev/UnrealLocres):** استخراج و بسته‌بندی فایل‌های متنی (`.locres`) آنریل.
+* **[repak](https://github.com/FarsiForge-dev/repak) / [retoc](https://github.com/FarsiForge-dev/retoc):** ابزارهای خط‌فرمان برای پکینگ و آنپکینگ فایل‌های بازی.
+* **[UAssetGUI](https://github.com/FarsiForge-dev/UAssetGUI):** ویرایشگر سطح پایین برای فایل‌های `.uasset` و `.uexp`.
+
+### 🟦 گودو و 🟨 گیم‌میکر (Godot & GameMaker)
+* **[Godot RE Tools (gdsdecomp)](https://github.com/FarsiForge-dev/gdsdecomp):** دی‌کامپایل کامل و استخراج فایل‌های `.pck` بازی‌های گودو.
+* **[UndertaleModTool](https://github.com/FarsiForge-dev/UndertaleModTool):** ابزار نهایی برای مهندسی معکوس و بومی‌سازی بازی‌های ساخته شده با GameMaker Studio.
+
+### 🔬 مهندسی معکوس و دیباگ (General RE)
+* **[Ghidra](https://github.com/FarsiForge-dev/ghidra):** فریم‌ورک قدرتمند مهندسی معکوس متعلق به NSA.
+* **[x64dbg](https://github.com/FarsiForge-dev/x64dbg):** دیباگر استاندارد و متن‌باز x64/x32 برای ویندوز.
+* **[dnSpy](https://github.com/FarsiForge-dev/dnSpy) / [ILSpy](https://github.com/FarsiForge-dev/ILSpy):** دی‌کامپایلر و ویرایشگر اسمبلی برای برنامه‌های دات‌نت (.NET).
+* **[ImHex](https://github.com/FarsiForge-dev/ImHex):** ویرایشگر Hex پیشرفته برای تحلیل داده‌ها.
+* **[QuickBMS](https://github.com/FarsiForge-dev/QuickBMS):** ابزار همه‌کاره مبتنی بر اسکریپت برای استخراج و بازگردانی فایل‌های فشرده‌ی بازی‌ها.
+* **[Steamless](https://github.com/FarsiForge-dev/Steamless):** ابزاری برای حذف DRM استیم از فایل‌های اجرایی (exe).
+* **[Detect-It-Easy](https://github.com/FarsiForge-dev/Detect-It-Easy):** تشخیص انجین، کامپایلر و پروتکتور (پکر) بازی.
+
+### 🎨 فونت، متن و اتوماسیون (Python & CLI)
+* **[fonttools](https://github.com/FarsiForge-dev/fonttools) / [fontforge](https://github.com/FarsiForge-dev/fontforge):** ساخت، ویرایش و پچ کردن فونت‌ها جهت اضافه کردن کاراکترهای فارسی.
+* **[python-arabic-reshaper](https://github.com/FarsiForge-dev/python-arabic-reshaper) و [python-bidi](https://github.com/FarsiForge-dev/python-bidi):** کتابخانه‌های ضروری پایتون برای اصلاح متون راست‌چین (RTL) و رفع مشکل جداجدا نوشته شدن حروف فارسی در بازی‌هایی که پشتیبانی بومی ندارند.
+* **[vazirmatn](https://github.com/FarsiForge-dev/vazirmatn):** فونت استاندارد و متن‌باز فارسی (وزیرمتن).
+* **[ImageMagick](https://github.com/FarsiForge-dev/ImageMagick):** ابزار خط‌فرمان برای دستکاری و تغییر فرمت تکسچرها و عکس‌ها.
+* **[jq](https://github.com/FarsiForge-dev/jq):** ابزاری همه‌کاره برای پردازش داده‌های متنی با فرمت JSON.
+
+---
+
+## 🌍 ماموریت ما
+ما معتقدیم زبان نباید مانعی برای لذت بردن از داستان‌های فوق‌العاده باشد. با فراهم کردن ابزارهای خودکار، قابل اسکریپت‌نویسی و کاربرپسند، به مترجم‌ها و مادسازها کمک می‌کنیم روی کاری تمرکز کنند که در آن بهترین هستند: *ترجمه*.
+
+* **روندهای کاری خودکار:** با ویرایش هگز (Hex-editing) دستی رشته‌ها خداحافظی کنید.
+* **پشتیبانی بی‌نقص از RTL:** غلبه بر سخت‌ترین چالش در فارسی‌سازی با راهکارهای داخلی برای اصلاح فونت و فرم حروف.
+* **باز و مشارکتی:** ساخته شده به صورت شفاف در گیت‌هاب، توسط کاربران و برای کاربران.
+
+## 🤝 به ما بپیوندید!
+چه مترجم باشید، چه مهندس معکوس و چه برنامه‌نویس (C#، Python، C++)، ما از مشارکت شما استقبال می‌کنیم!
+- [ریپازیتوری‌های ما](https://github.com/orgs/FarsiForge-dev/repositories) را ببینید و شروع به مشارکت کنید.
+- باگی پیدا کردید یا ایده‌ای دارید؟ کافیست در ریپازیتوری مربوطه یک Issue ثبت کنید.
+
+</div>
